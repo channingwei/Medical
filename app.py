@@ -34,6 +34,10 @@ def api_terms():
     for term in terms:
         term_copy = term.copy()
 
+        # ✂️ Remove "_number" suffix from the term
+        if '_' in term_copy['term']:
+            term_copy['term'] = term_copy['term'].split('_')[0]
+
         # Assign virtual chapters based on type
         if term['type'] == 'prefix':
             term_copy["chapter"] = "Prefixes"
@@ -49,6 +53,8 @@ def api_terms():
         all_terms.append(term_copy)
 
     return jsonify(all_terms)
+
+
 
 # Run the app
 if __name__ == '__main__':
