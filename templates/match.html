@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching Game - Medical Terminology</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .match-container {
+            max-width: 1000px;
+            margin: 50px auto;
+        }
+        .match-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .matching-area {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+        .terms-column, .meanings-column {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .term-item, .meaning-item {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 20px;
+            cursor: grab;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+            text-align: center;
+            user-select: none;
+        }
+        .term-item:hover, .meaning-item:hover {
+            background: #e9ecef;
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+        .term-item.dragging {
+            opacity: 0.5;
+            transform: rotate(5deg);
+        }
+        .meaning-item.drag-over {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        .term-item.matched, .meaning-item.matched {
+            background: #28a745;
+            color: white;
+            border-color: #28a745;
+            cursor: default;
+        }
+        .term-item.matched:hover, .meaning-item.matched:hover {
+            background: #28a745;
+            transform: none;
+        }
+        .controls {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .btn-match {
+            margin: 0 10px;
+            padding: 12px 30px;
+            border-radius: 25px;
+            border: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .progress-container {
+            background: rgba(255,255,255,0.2);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+        }
+        .chapter-selector {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .results-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .score-display {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        .feedback {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .timer {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center mt-4">
+            <a href="/" class="btn btn-outline-light mb-3">
+                <i class="fas fa-arrow-left me-2"></i>Back to Home
+            </a>
+            <h1 class="text-white mb-4">
+                <i class="fas fa-puzzle-piece me-3"></i>Matching Game
+            </h1>
+        </div>
+
+        <div class="chapter-selector">
+            <div class="row">
+                <div class="col-md-8">
+                    <label for="chapterSelect" class="form-label">Select Chapter:</label>
+                    <select class="form-select" id="chapterSelect">
+                        <option value="all">All Chapters</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">&nbsp;</label>
+                    <button class="btn btn-primary w-100" onclick="startGame()">
+                        <i class="fas fa-play me-2"></i>Start Game
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="progress-container">
+            <div class="row text-center text-white">
+                <div class="col-md-3">
+                    <h4 id="matchedPairs">0</h4>
+                    <p>Matched</p>
+                </div>
+                <div class="col-md-3">
+                    <h4 id="totalPairs">0</h4>
+                    <p>Total</p>
+                </div>
+                <div class="col-md-3">
+                    <h4 id="timer">00:00</h4>
+                    <p>Time</p>
+                </div>
+                <div class="col-md-3">
+                    <h4 id="score">0</h4>
+                    <p>Score</p>
+                </div>
+            </div>
+            <div class="progress mt-3" style="height: 10px;">
+                <div class="progress-bar" id="progressBar" style="width: 0%"></div>
+            </div>
+        </div>
+
+        <div class="match-container">
+            <div id="matchCard" class="match-card" style="display: none;">
+                <div class="matching-area">
+                    <div class="terms-column">
+                        <h4 class="text-center mb-3">Medical Terms</h4>
+                        <div id="termsContainer">
+                            <!-- Terms will be populated here -->
+                        </div>
+                    </div>
+                    <div class="meanings-column">
+                        <h4 class="text-center mb-3">Meanings</h4>
+                        <div id="meaningsContainer">
+                            <!-- Meanings will be populated here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button class="btn btn-match btn-outline-secondary" onclick="resetGame()">
+                        <i class="fas fa-redo me-2"></i>Reset
+                    </button>
+                    <button class="btn btn-match btn-primary" onclick="checkMatches()">
+                        <i class="fas fa-check me-2"></i>Check Matches
+                    </button>
+                </div>
+            </div>
+
+            <div id="resultsCard" class="results-card" style="display: none;">
+                <div class="score-display" id="finalScore">0%</div>
+                <div class="feedback" id="feedback">Great job!</div>
+                <div class="mb-4">
+                    <h5>Your Results:</h5>
+                    <p>Correct Matches: <span id="correctMatches">0</span> / <span id="totalMatches">0</span></p>
+                    <p>Time: <span id="finalTime">00:00</span></p>
+                </div>
+                <button class="btn btn-match btn-primary" onclick="startGame()">
+                    <i class="fas fa-redo me-2"></i>Play Again
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let allTerms = [];
+        let gameTerms = [];
+        let matchedPairs = 0;
+        let totalPairs = 0;
+        let startTime = null;
+        let timerInterval = null;
+        let selectedTerm = null;
+
+        // Load terms and initialize
+        fetch('/api/terms')
+            .then(response => response.json())
+            .then(data => {
+                allTerms = data;
+                populateChapterSelect();
+            });
+
+        function populateChapterSelect() {
+            const chapters = [...new Set(allTerms.map(term => term.chapter))];
+            const select = document.getElementById('chapterSelect');
+            
+            chapters.forEach(chapter => {
+                const option = document.createElement('option');
+                option.value = chapter;
+                option.textContent = chapter;
+                select.appendChild(option);
+            });
+        }
+
+        function startGame() {
+            const selectedChapter = document.getElementById('chapterSelect').value;
+            let availableTerms = [];
+            
+            if (selectedChapter === 'all') {
+                availableTerms = [...allTerms];
+            } else {
+                availableTerms = allTerms.filter(term => term.chapter === selectedChapter);
+            }
+            
+            if (availableTerms.length < 4) {
+                alert('Not enough terms available for the game. Please select a different chapter or add more terms.');
+                return;
+            }
+            
+            // Select random terms for the game
+            const shuffledTerms = availableTerms.sort(() => Math.random() - 0.5);
+            gameTerms = shuffledTerms.slice(0, Math.min(8, shuffledTerms.length)); // Limit to 8 terms
+            totalPairs = gameTerms.length;
+            matchedPairs = 0;
+            
+            document.getElementById('matchCard').style.display = 'block';
+            document.getElementById('resultsCard').style.display = 'none';
+            
+            setupGame();
+            startTimer();
+        }
+
+        function setupGame() {
+            const termsContainer = document.getElementById('termsContainer');
+            const meaningsContainer = document.getElementById('meaningsContainer');
+            
+            // Clear containers
+            termsContainer.innerHTML = '';
+            meaningsContainer.innerHTML = '';
+            
+            // Create shuffled meanings array
+            const meanings = gameTerms.map(term => term.meaning).sort(() => Math.random() - 0.5);
+            
+            // Create term items
+            gameTerms.forEach((term, index) => {
+                const termItem = document.createElement('div');
+                termItem.className = 'term-item';
+                termItem.textContent = `${term.term} (${term.type})`;
+                termItem.dataset.index = index;
+                termItem.draggable = true;
+                
+                termItem.addEventListener('dragstart', handleDragStart);
+                termItem.addEventListener('dragend', handleDragEnd);
+                
+                termsContainer.appendChild(termItem);
+            });
+            
+            // Create meaning items
+            meanings.forEach((meaning, index) => {
+                const meaningItem = document.createElement('div');
+                meaningItem.className = 'meaning-item';
+                meaningItem.textContent = meaning;
+                meaningItem.dataset.meaning = meaning;
+                
+                meaningItem.addEventListener('dragover', handleDragOver);
+                meaningItem.addEventListener('drop', handleDrop);
+                meaningItem.addEventListener('dragenter', handleDragEnter);
+                meaningItem.addEventListener('dragleave', handleDragLeave);
+                
+                meaningsContainer.appendChild(meaningItem);
+            });
+            
+            updateProgress();
+        }
+
+        function handleDragStart(e) {
+            e.target.classList.add('dragging');
+            selectedTerm = e.target.dataset.index;
+        }
+
+        function handleDragEnd(e) {
+            e.target.classList.remove('dragging');
+        }
+
+        function handleDragOver(e) {
+            e.preventDefault();
+        }
+
+        function handleDragEnter(e) {
+            e.preventDefault();
+            e.target.classList.add('drag-over');
+        }
+
+        function handleDragLeave(e) {
+            e.target.classList.remove('drag-over');
+        }
+
+        function handleDrop(e) {
+            e.preventDefault();
+            e.target.classList.remove('drag-over');
+            
+            if (selectedTerm !== null) {
+                const termIndex = parseInt(selectedTerm);
+                const term = gameTerms[termIndex];
+                const meaning = e.target.dataset.meaning;
+                
+                if (term.meaning === meaning) {
+                    // Correct match
+                    e.target.classList.add('matched');
+                    document.querySelector(`[data-index="${termIndex}"]`).classList.add('matched');
+                    matchedPairs++;
+                    updateProgress();
+                    
+                    if (matchedPairs === totalPairs) {
+                        endGame();
+                    }
+                } else {
+                    // Incorrect match - shake animation
+                    e.target.style.animation = 'shake 0.5s';
+                    setTimeout(() => {
+                        e.target.style.animation = '';
+                    }, 500);
+                }
+                
+                selectedTerm = null;
+            }
+        }
+
+        function resetGame() {
+            matchedPairs = 0;
+            setupGame();
+            startTimer();
+        }
+
+        function checkMatches() {
+            // This function can be used to manually check matches
+            // For now, it just shows current progress
+            alert(`You have matched ${matchedPairs} out of ${totalPairs} pairs correctly!`);
+        }
+
+        function startTimer() {
+            startTime = new Date();
+            timerInterval = setInterval(updateTimer, 1000);
+        }
+
+        function updateTimer() {
+            if (startTime) {
+                const elapsed = Math.floor((new Date() - startTime) / 1000);
+                const minutes = Math.floor(elapsed / 60);
+                const seconds = elapsed % 60;
+                document.getElementById('timer').textContent = 
+                    `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            }
+        }
+
+        function updateProgress() {
+            document.getElementById('matchedPairs').textContent = matchedPairs;
+            document.getElementById('totalPairs').textContent = totalPairs;
+            
+            const progress = (matchedPairs / totalPairs) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+        }
+
+        function endGame() {
+            clearInterval(timerInterval);
+            const finalTime = document.getElementById('timer').textContent;
+            
+            document.getElementById('matchCard').style.display = 'none';
+            document.getElementById('resultsCard').style.display = 'block';
+            
+            const percentage = Math.round((matchedPairs / totalPairs) * 100);
+            document.getElementById('finalScore').textContent = percentage + '%';
+            document.getElementById('correctMatches').textContent = matchedPairs;
+            document.getElementById('totalMatches').textContent = totalPairs;
+            document.getElementById('finalTime').textContent = finalTime;
+            
+            let feedback = '';
+            if (percentage === 100) {
+                feedback = 'Perfect! You matched everything correctly!';
+            } else if (percentage >= 80) {
+                feedback = 'Excellent! You have a great understanding!';
+            } else if (percentage >= 60) {
+                feedback = 'Good job! Keep practicing to improve.';
+            } else {
+                feedback = 'Keep studying! Review the terms and try again.';
+            }
+            
+            document.getElementById('feedback').textContent = feedback;
+        }
+
+        // Add shake animation CSS
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes shake {
+                0%, 100% { transform: translateX(0); }
+                25% { transform: translateX(-5px); }
+                75% { transform: translateX(5px); }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html> 

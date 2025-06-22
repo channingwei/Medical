@@ -1,0 +1,5002 @@
+[
+  {
+    "term": "a-",
+    "type": "prefix",
+    "meaning": "without"
+  },
+  {
+    "term": "ab-",
+    "type": "prefix",
+    "meaning": "away from"
+  },
+  {
+    "term": "ad-",
+    "type": "prefix",
+    "meaning": "toward"
+  },
+  {
+    "term": "ante-",
+    "type": "prefix",
+    "meaning": "before"
+  },
+  {
+    "term": "anti-",
+    "type": "prefix",
+    "meaning": "against"
+  },
+  {
+    "term": "auto-",
+    "type": "prefix",
+    "meaning": "self"
+  },
+  {
+    "term": "brady-",
+    "type": "prefix",
+    "meaning": "slow"
+  },
+  {
+    "term": "dys-",
+    "type": "prefix",
+    "meaning": "bad"
+  },
+  {
+    "term": "endo-",
+    "type": "prefix",
+    "meaning": "within"
+  },
+  {
+    "term": "epi-",
+    "type": "prefix",
+    "meaning": "on, upon"
+  },
+  {
+    "term": "ex-",
+    "type": "prefix",
+    "meaning": "out"
+  },
+  {
+    "term": "hemi-",
+    "type": "prefix",
+    "meaning": "half"
+  },
+  {
+    "term": "hyper-",
+    "type": "prefix",
+    "meaning": "excessive"
+  },
+  {
+    "term": "hypo-",
+    "type": "prefix",
+    "meaning": "below"
+  },
+  {
+    "term": "in-",
+    "type": "prefix",
+    "meaning": "in, into"
+  },
+  {
+    "term": "inter-",
+    "type": "prefix",
+    "meaning": "between"
+  },
+  {
+    "term": "intra-",
+    "type": "prefix",
+    "meaning": "within"
+  },
+  {
+    "term": "macro-",
+    "type": "prefix",
+    "meaning": "large"
+  },
+  {
+    "term": "micro-",
+    "type": "prefix",
+    "meaning": "small"
+  },
+  {
+    "term": "neo-",
+    "type": "prefix",
+    "meaning": "new"
+  },
+  {
+    "term": "-algia",
+    "type": "suffix",
+    "meaning": "pain"
+  },
+  {
+    "term": "-cele",
+    "type": "suffix",
+    "meaning": "hernia"
+  },
+  {
+    "term": "-cyte",
+    "type": "suffix",
+    "meaning": "cell"
+  },
+  {
+    "term": "-ectomy",
+    "type": "suffix",
+    "meaning": "removal"
+  },
+  {
+    "term": "-emia",
+    "type": "suffix",
+    "meaning": "blood condition"
+  },
+  {
+    "term": "-itis",
+    "type": "suffix",
+    "meaning": "inflammation"
+  },
+  {
+    "term": "-logy",
+    "type": "suffix",
+    "meaning": "study of"
+  },
+  {
+    "term": "-lysis",
+    "type": "suffix",
+    "meaning": "destruction"
+  },
+  {
+    "term": "-megaly",
+    "type": "suffix",
+    "meaning": "enlargement"
+  },
+  {
+    "term": "-oma",
+    "type": "suffix",
+    "meaning": "tumor"
+  },
+  {
+    "term": "-pathy",
+    "type": "suffix",
+    "meaning": "disease"
+  },
+  {
+    "term": "-phobia",
+    "type": "suffix",
+    "meaning": "fear of"
+  },
+  {
+    "term": "-plasia",
+    "type": "suffix",
+    "meaning": "formation"
+  },
+  {
+    "term": "-plasty",
+    "type": "suffix",
+    "meaning": "repair"
+  },
+  {
+    "term": "-rrhage",
+    "type": "suffix",
+    "meaning": "bursting forth"
+  },
+  {
+    "term": "-rrhea",
+    "type": "suffix",
+    "meaning": "flow"
+  },
+  {
+    "term": "-sclerosis",
+    "type": "suffix",
+    "meaning": "hardening"
+  },
+  {
+    "term": "-scopy",
+    "type": "suffix",
+    "meaning": "viewing"
+  },
+  {
+    "term": "-stomy",
+    "type": "suffix",
+    "meaning": "opening"
+  },
+  {
+    "term": "-tomy",
+    "type": "suffix",
+    "meaning": "cutting into"
+  },
+  {
+    "term": "aden/o",
+    "type": "root",
+    "meaning": "gland"
+  },
+  {
+    "term": "angi/o",
+    "type": "root",
+    "meaning": "vessel"
+  },
+  {
+    "term": "arthr/o",
+    "type": "root",
+    "meaning": "joint"
+  },
+  {
+    "term": "cardi/o",
+    "type": "root",
+    "meaning": "heart"
+  },
+  {
+    "term": "cephal/o",
+    "type": "root",
+    "meaning": "head"
+  },
+  {
+    "term": "cyst/o",
+    "type": "root",
+    "meaning": "bladder"
+  },
+  {
+    "term": "cyt/o",
+    "type": "root",
+    "meaning": "cell"
+  },
+  {
+    "term": "dermat/o",
+    "type": "root",
+    "meaning": "skin"
+  },
+  {
+    "term": "enter/o",
+    "type": "root",
+    "meaning": "intestine"
+  },
+  {
+    "term": "gastr/o",
+    "type": "root",
+    "meaning": "stomach"
+  },
+  {
+    "term": "gynec/o",
+    "type": "root",
+    "meaning": "female"
+  },
+  {
+    "term": "hemat/o",
+    "type": "root",
+    "meaning": "blood"
+  },
+  {
+    "term": "hepat/o",
+    "type": "root",
+    "meaning": "liver"
+  },
+  {
+    "term": "hyster/o",
+    "type": "root",
+    "meaning": "uterus"
+  },
+  {
+    "term": "laryng/o",
+    "type": "root",
+    "meaning": "larynx"
+  },
+  {
+    "term": "mast/o",
+    "type": "root",
+    "meaning": "breast"
+  },
+  {
+    "term": "my/o",
+    "type": "root",
+    "meaning": "muscle"
+  },
+  {
+    "term": "nephr/o",
+    "type": "root",
+    "meaning": "kidney"
+  },
+  {
+    "term": "neur/o",
+    "type": "root",
+    "meaning": "nerve"
+  },
+  {
+    "term": "oste/o",
+    "type": "root",
+    "meaning": "bone"
+  },
+  {
+    "term": "ot/o",
+    "type": "root",
+    "meaning": "ear"
+  },
+  {
+    "term": "path/o",
+    "type": "root",
+    "meaning": "disease"
+  },
+  {
+    "term": "phleb/o",
+    "type": "root",
+    "meaning": "vein"
+  },
+  {
+    "term": "pneum/o",
+    "type": "root",
+    "meaning": "lung"
+  },
+  {
+    "term": "psych/o",
+    "type": "root",
+    "meaning": "mind"
+  },
+  {
+    "term": "ren/o",
+    "type": "root",
+    "meaning": "kidney"
+  },
+  {
+    "term": "rhin/o",
+    "type": "root",
+    "meaning": "nose"
+  },
+  {
+    "term": "splen/o",
+    "type": "root",
+    "meaning": "spleen"
+  },
+  {
+    "term": "thorac/o",
+    "type": "root",
+    "meaning": "chest"
+  },
+  {
+    "term": "ur/o",
+    "type": "root",
+    "meaning": "urine"
+  },
+  {
+    "term": "phleb/o_1",
+    "type": "variant",
+    "meaning": "Variant of phleb/o: vein"
+  },
+  {
+    "term": "ab-_2",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "-logy_3",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "dys-_4",
+    "type": "variant",
+    "meaning": "Variant of dys-: bad"
+  },
+  {
+    "term": "enter/o_5",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "ot/o_6",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "brady-_7",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "cyt/o_8",
+    "type": "variant",
+    "meaning": "Variant of cyt/o: cell"
+  },
+  {
+    "term": "-plasty_9",
+    "type": "variant",
+    "meaning": "Variant of -plasty: repair"
+  },
+  {
+    "term": "-itis_10",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "hypo-_11",
+    "type": "variant",
+    "meaning": "Variant of hypo-: below"
+  },
+  {
+    "term": "nephr/o_12",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "-logy_13",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "laryng/o_14",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "psych/o_15",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "angi/o_16",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "-stomy_17",
+    "type": "variant",
+    "meaning": "Variant of -stomy: opening"
+  },
+  {
+    "term": "-lysis_18",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "-pathy_19",
+    "type": "variant",
+    "meaning": "Variant of -pathy: disease"
+  },
+  {
+    "term": "mast/o_20",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "aden/o_21",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "macro-_22",
+    "type": "variant",
+    "meaning": "Variant of macro-: large"
+  },
+  {
+    "term": "nephr/o_23",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "hyster/o_24",
+    "type": "variant",
+    "meaning": "Variant of hyster/o: uterus"
+  },
+  {
+    "term": "hyper-_25",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "-sclerosis_26",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "neur/o_27",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "pneum/o_28",
+    "type": "variant",
+    "meaning": "Variant of pneum/o: lung"
+  },
+  {
+    "term": "-plasia_29",
+    "type": "variant",
+    "meaning": "Variant of -plasia: formation"
+  },
+  {
+    "term": "-rrhage_30",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "ur/o_31",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "auto-_32",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "gynec/o_33",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "neo-_34",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "brady-_35",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "angi/o_36",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "in-_37",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "enter/o_38",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "hemi-_39",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "-tomy_40",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "-cele_41",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "nephr/o_42",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "laryng/o_43",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "-algia_44",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "nephr/o_45",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "hyper-_46",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "rhin/o_47",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "cephal/o_48",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "-rrhage_49",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "intra-_50",
+    "type": "variant",
+    "meaning": "Variant of intra-: within"
+  },
+  {
+    "term": "anti-_51",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "neo-_52",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "micro-_53",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "-tomy_54",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "splen/o_55",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "cephal/o_56",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "inter-_57",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "cyst/o_58",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "phleb/o_59",
+    "type": "variant",
+    "meaning": "Variant of phleb/o: vein"
+  },
+  {
+    "term": "nephr/o_60",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "auto-_61",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "in-_62",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "hypo-_63",
+    "type": "variant",
+    "meaning": "Variant of hypo-: below"
+  },
+  {
+    "term": "-megaly_64",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "hyster/o_65",
+    "type": "variant",
+    "meaning": "Variant of hyster/o: uterus"
+  },
+  {
+    "term": "arthr/o_66",
+    "type": "variant",
+    "meaning": "Variant of arthr/o: joint"
+  },
+  {
+    "term": "hemi-_67",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "-sclerosis_68",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "intra-_69",
+    "type": "variant",
+    "meaning": "Variant of intra-: within"
+  },
+  {
+    "term": "path/o_70",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "oste/o_71",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "-algia_72",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "hyster/o_73",
+    "type": "variant",
+    "meaning": "Variant of hyster/o: uterus"
+  },
+  {
+    "term": "-megaly_74",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "ab-_75",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "-megaly_76",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "-cyte_77",
+    "type": "variant",
+    "meaning": "Variant of -cyte: cell"
+  },
+  {
+    "term": "-stomy_78",
+    "type": "variant",
+    "meaning": "Variant of -stomy: opening"
+  },
+  {
+    "term": "-lysis_79",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "ab-_80",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "cephal/o_81",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "-plasia_82",
+    "type": "variant",
+    "meaning": "Variant of -plasia: formation"
+  },
+  {
+    "term": "hyster/o_83",
+    "type": "variant",
+    "meaning": "Variant of hyster/o: uterus"
+  },
+  {
+    "term": "ad-_84",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "dermat/o_85",
+    "type": "variant",
+    "meaning": "Variant of dermat/o: skin"
+  },
+  {
+    "term": "-sclerosis_86",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "intra-_87",
+    "type": "variant",
+    "meaning": "Variant of intra-: within"
+  },
+  {
+    "term": "micro-_88",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "splen/o_89",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "hyster/o_90",
+    "type": "variant",
+    "meaning": "Variant of hyster/o: uterus"
+  },
+  {
+    "term": "ad-_91",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "hemat/o_92",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "hemi-_93",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "-rrhage_94",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "enter/o_95",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "-sclerosis_96",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "-phobia_97",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "cephal/o_98",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "ex-_99",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "neo-_100",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "ex-_101",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "thorac/o_102",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "ur/o_103",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "laryng/o_104",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "brady-_105",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "-lysis_106",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "brady-_107",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "-logy_108",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "hypo-_109",
+    "type": "variant",
+    "meaning": "Variant of hypo-: below"
+  },
+  {
+    "term": "neur/o_110",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "splen/o_111",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "gynec/o_112",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "cyst/o_113",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "oste/o_114",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "neur/o_115",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "psych/o_116",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "aden/o_117",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "ren/o_118",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "-algia_119",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "-algia_120",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "hemat/o_121",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "nephr/o_122",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "oste/o_123",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "pneum/o_124",
+    "type": "variant",
+    "meaning": "Variant of pneum/o: lung"
+  },
+  {
+    "term": "micro-_125",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "mast/o_126",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "cardi/o_127",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "brady-_128",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "dermat/o_129",
+    "type": "variant",
+    "meaning": "Variant of dermat/o: skin"
+  },
+  {
+    "term": "epi-_130",
+    "type": "variant",
+    "meaning": "Variant of epi-: on, upon"
+  },
+  {
+    "term": "-algia_131",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "splen/o_132",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "a-_133",
+    "type": "variant",
+    "meaning": "Variant of a-: without"
+  },
+  {
+    "term": "ren/o_134",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "dermat/o_135",
+    "type": "variant",
+    "meaning": "Variant of dermat/o: skin"
+  },
+  {
+    "term": "-itis_136",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "ot/o_137",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "-phobia_138",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "-cele_139",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "brady-_140",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "micro-_141",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "angi/o_142",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "brady-_143",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "auto-_144",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "ex-_145",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "hyper-_146",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "hepat/o_147",
+    "type": "variant",
+    "meaning": "Variant of hepat/o: liver"
+  },
+  {
+    "term": "dermat/o_148",
+    "type": "variant",
+    "meaning": "Variant of dermat/o: skin"
+  },
+  {
+    "term": "hyper-_149",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "brady-_150",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "angi/o_151",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "-itis_152",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "endo-_153",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "enter/o_154",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "psych/o_155",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "psych/o_156",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "mast/o_157",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "nephr/o_158",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "endo-_159",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "epi-_160",
+    "type": "variant",
+    "meaning": "Variant of epi-: on, upon"
+  },
+  {
+    "term": "laryng/o_161",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "-megaly_162",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "ur/o_163",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "ren/o_164",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "psych/o_165",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "my/o_166",
+    "type": "variant",
+    "meaning": "Variant of my/o: muscle"
+  },
+  {
+    "term": "ex-_167",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "-lysis_168",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "path/o_169",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "path/o_170",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "neo-_171",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "brady-_172",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "a-_173",
+    "type": "variant",
+    "meaning": "Variant of a-: without"
+  },
+  {
+    "term": "-rrhea_174",
+    "type": "variant",
+    "meaning": "Variant of -rrhea: flow"
+  },
+  {
+    "term": "cyt/o_175",
+    "type": "variant",
+    "meaning": "Variant of cyt/o: cell"
+  },
+  {
+    "term": "ot/o_176",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "cephal/o_177",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "cardi/o_178",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "ab-_179",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "ur/o_180",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "laryng/o_181",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "-oma_182",
+    "type": "variant",
+    "meaning": "Variant of -oma: tumor"
+  },
+  {
+    "term": "in-_183",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "a-_184",
+    "type": "variant",
+    "meaning": "Variant of a-: without"
+  },
+  {
+    "term": "my/o_185",
+    "type": "variant",
+    "meaning": "Variant of my/o: muscle"
+  },
+  {
+    "term": "-stomy_186",
+    "type": "variant",
+    "meaning": "Variant of -stomy: opening"
+  },
+  {
+    "term": "-plasia_187",
+    "type": "variant",
+    "meaning": "Variant of -plasia: formation"
+  },
+  {
+    "term": "-sclerosis_188",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "psych/o_189",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "in-_190",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "neo-_191",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "mast/o_192",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "-plasty_193",
+    "type": "variant",
+    "meaning": "Variant of -plasty: repair"
+  },
+  {
+    "term": "-ectomy_194",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "neur/o_195",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "-phobia_196",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "cephal/o_197",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "-cele_198",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "macro-_199",
+    "type": "variant",
+    "meaning": "Variant of macro-: large"
+  },
+  {
+    "term": "-megaly_200",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "hemi-_201",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "gynec/o_202",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "nephr/o_203",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "hemat/o_204",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "ur/o_205",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "-phobia_206",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "-cyte_207",
+    "type": "variant",
+    "meaning": "Variant of -cyte: cell"
+  },
+  {
+    "term": "-ectomy_208",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "cephal/o_209",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "-sclerosis_210",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "ante-_211",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "phleb/o_212",
+    "type": "variant",
+    "meaning": "Variant of phleb/o: vein"
+  },
+  {
+    "term": "brady-_213",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "-pathy_214",
+    "type": "variant",
+    "meaning": "Variant of -pathy: disease"
+  },
+  {
+    "term": "-rrhea_215",
+    "type": "variant",
+    "meaning": "Variant of -rrhea: flow"
+  },
+  {
+    "term": "hepat/o_216",
+    "type": "variant",
+    "meaning": "Variant of hepat/o: liver"
+  },
+  {
+    "term": "phleb/o_217",
+    "type": "variant",
+    "meaning": "Variant of phleb/o: vein"
+  },
+  {
+    "term": "gastr/o_218",
+    "type": "variant",
+    "meaning": "Variant of gastr/o: stomach"
+  },
+  {
+    "term": "hemi-_219",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "anti-_220",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "-algia_221",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "angi/o_222",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "oste/o_223",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "micro-_224",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "endo-_225",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "anti-_226",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "-rrhea_227",
+    "type": "variant",
+    "meaning": "Variant of -rrhea: flow"
+  },
+  {
+    "term": "enter/o_228",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "hemi-_229",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "-cele_230",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "-scopy_231",
+    "type": "variant",
+    "meaning": "Variant of -scopy: viewing"
+  },
+  {
+    "term": "path/o_232",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "-stomy_233",
+    "type": "variant",
+    "meaning": "Variant of -stomy: opening"
+  },
+  {
+    "term": "brady-_234",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "cyst/o_235",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "-rrhage_236",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "laryng/o_237",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "hemi-_238",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "thorac/o_239",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "hemi-_240",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "auto-_241",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "ante-_242",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "ur/o_243",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "intra-_244",
+    "type": "variant",
+    "meaning": "Variant of intra-: within"
+  },
+  {
+    "term": "cephal/o_245",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "my/o_246",
+    "type": "variant",
+    "meaning": "Variant of my/o: muscle"
+  },
+  {
+    "term": "ad-_247",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "-cele_248",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "pneum/o_249",
+    "type": "variant",
+    "meaning": "Variant of pneum/o: lung"
+  },
+  {
+    "term": "hemi-_250",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "my/o_251",
+    "type": "variant",
+    "meaning": "Variant of my/o: muscle"
+  },
+  {
+    "term": "splen/o_252",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "splen/o_253",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "-phobia_254",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "cephal/o_255",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "ex-_256",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "-stomy_257",
+    "type": "variant",
+    "meaning": "Variant of -stomy: opening"
+  },
+  {
+    "term": "-megaly_258",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "hypo-_259",
+    "type": "variant",
+    "meaning": "Variant of hypo-: below"
+  },
+  {
+    "term": "brady-_260",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "hyper-_261",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "-rrhage_262",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "-rrhage_263",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "inter-_264",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "-rrhage_265",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "cephal/o_266",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "dys-_267",
+    "type": "variant",
+    "meaning": "Variant of dys-: bad"
+  },
+  {
+    "term": "inter-_268",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "-lysis_269",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "enter/o_270",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "hepat/o_271",
+    "type": "variant",
+    "meaning": "Variant of hepat/o: liver"
+  },
+  {
+    "term": "-stomy_272",
+    "type": "variant",
+    "meaning": "Variant of -stomy: opening"
+  },
+  {
+    "term": "cyst/o_273",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "a-_274",
+    "type": "variant",
+    "meaning": "Variant of a-: without"
+  },
+  {
+    "term": "-oma_275",
+    "type": "variant",
+    "meaning": "Variant of -oma: tumor"
+  },
+  {
+    "term": "inter-_276",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "-lysis_277",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "-megaly_278",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "cephal/o_279",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "-ectomy_280",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "angi/o_281",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "path/o_282",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "-stomy_283",
+    "type": "variant",
+    "meaning": "Variant of -stomy: opening"
+  },
+  {
+    "term": "ante-_284",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "-scopy_285",
+    "type": "variant",
+    "meaning": "Variant of -scopy: viewing"
+  },
+  {
+    "term": "-stomy_286",
+    "type": "variant",
+    "meaning": "Variant of -stomy: opening"
+  },
+  {
+    "term": "inter-_287",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "-lysis_288",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "auto-_289",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "laryng/o_290",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "-ectomy_291",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "hemat/o_292",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "cardi/o_293",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "ex-_294",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "hypo-_295",
+    "type": "variant",
+    "meaning": "Variant of hypo-: below"
+  },
+  {
+    "term": "anti-_296",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "anti-_297",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "angi/o_298",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "ab-_299",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "-tomy_300",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "-stomy_301",
+    "type": "variant",
+    "meaning": "Variant of -stomy: opening"
+  },
+  {
+    "term": "ex-_302",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "gynec/o_303",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "-megaly_304",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "laryng/o_305",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "hepat/o_306",
+    "type": "variant",
+    "meaning": "Variant of hepat/o: liver"
+  },
+  {
+    "term": "gastr/o_307",
+    "type": "variant",
+    "meaning": "Variant of gastr/o: stomach"
+  },
+  {
+    "term": "anti-_308",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "-pathy_309",
+    "type": "variant",
+    "meaning": "Variant of -pathy: disease"
+  },
+  {
+    "term": "-cele_310",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "-rrhea_311",
+    "type": "variant",
+    "meaning": "Variant of -rrhea: flow"
+  },
+  {
+    "term": "neur/o_312",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "cyst/o_313",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "thorac/o_314",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "-logy_315",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "hemi-_316",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "gastr/o_317",
+    "type": "variant",
+    "meaning": "Variant of gastr/o: stomach"
+  },
+  {
+    "term": "-ectomy_318",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "cyst/o_319",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "micro-_320",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "auto-_321",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "-stomy_322",
+    "type": "variant",
+    "meaning": "Variant of -stomy: opening"
+  },
+  {
+    "term": "dermat/o_323",
+    "type": "variant",
+    "meaning": "Variant of dermat/o: skin"
+  },
+  {
+    "term": "neur/o_324",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "-oma_325",
+    "type": "variant",
+    "meaning": "Variant of -oma: tumor"
+  },
+  {
+    "term": "in-_326",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "ante-_327",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "-sclerosis_328",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "-logy_329",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "ex-_330",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "-sclerosis_331",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "mast/o_332",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "ot/o_333",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "dys-_334",
+    "type": "variant",
+    "meaning": "Variant of dys-: bad"
+  },
+  {
+    "term": "-scopy_335",
+    "type": "variant",
+    "meaning": "Variant of -scopy: viewing"
+  },
+  {
+    "term": "hyper-_336",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "cardi/o_337",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "gynec/o_338",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "hemat/o_339",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "ab-_340",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "dermat/o_341",
+    "type": "variant",
+    "meaning": "Variant of dermat/o: skin"
+  },
+  {
+    "term": "-sclerosis_342",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "ex-_343",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "ad-_344",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "-algia_345",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "-pathy_346",
+    "type": "variant",
+    "meaning": "Variant of -pathy: disease"
+  },
+  {
+    "term": "-lysis_347",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "splen/o_348",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "-emia_349",
+    "type": "variant",
+    "meaning": "Variant of -emia: blood condition"
+  },
+  {
+    "term": "enter/o_350",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "-ectomy_351",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "-itis_352",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "angi/o_353",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "gastr/o_354",
+    "type": "variant",
+    "meaning": "Variant of gastr/o: stomach"
+  },
+  {
+    "term": "gynec/o_355",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "hemi-_356",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "-cele_357",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "laryng/o_358",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "cephal/o_359",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "-algia_360",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "in-_361",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "hyster/o_362",
+    "type": "variant",
+    "meaning": "Variant of hyster/o: uterus"
+  },
+  {
+    "term": "anti-_363",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "aden/o_364",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "hemat/o_365",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "angi/o_366",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "cyt/o_367",
+    "type": "variant",
+    "meaning": "Variant of cyt/o: cell"
+  },
+  {
+    "term": "-rrhage_368",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "dys-_369",
+    "type": "variant",
+    "meaning": "Variant of dys-: bad"
+  },
+  {
+    "term": "-megaly_370",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "-emia_371",
+    "type": "variant",
+    "meaning": "Variant of -emia: blood condition"
+  },
+  {
+    "term": "pneum/o_372",
+    "type": "variant",
+    "meaning": "Variant of pneum/o: lung"
+  },
+  {
+    "term": "-itis_373",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "epi-_374",
+    "type": "variant",
+    "meaning": "Variant of epi-: on, upon"
+  },
+  {
+    "term": "nephr/o_375",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "-rrhea_376",
+    "type": "variant",
+    "meaning": "Variant of -rrhea: flow"
+  },
+  {
+    "term": "ab-_377",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "endo-_378",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "anti-_379",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "angi/o_380",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "-phobia_381",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "phleb/o_382",
+    "type": "variant",
+    "meaning": "Variant of phleb/o: vein"
+  },
+  {
+    "term": "-ectomy_383",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "-cyte_384",
+    "type": "variant",
+    "meaning": "Variant of -cyte: cell"
+  },
+  {
+    "term": "hemat/o_385",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "hepat/o_386",
+    "type": "variant",
+    "meaning": "Variant of hepat/o: liver"
+  },
+  {
+    "term": "aden/o_387",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "-cele_388",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "hypo-_389",
+    "type": "variant",
+    "meaning": "Variant of hypo-: below"
+  },
+  {
+    "term": "ex-_390",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "phleb/o_391",
+    "type": "variant",
+    "meaning": "Variant of phleb/o: vein"
+  },
+  {
+    "term": "ante-_392",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "hepat/o_393",
+    "type": "variant",
+    "meaning": "Variant of hepat/o: liver"
+  },
+  {
+    "term": "neo-_394",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "-plasty_395",
+    "type": "variant",
+    "meaning": "Variant of -plasty: repair"
+  },
+  {
+    "term": "cardi/o_396",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "-itis_397",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "splen/o_398",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "oste/o_399",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "path/o_400",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "endo-_401",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "enter/o_402",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "brady-_403",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "neur/o_404",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "-megaly_405",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "thorac/o_406",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "brady-_407",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "enter/o_408",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "dys-_409",
+    "type": "variant",
+    "meaning": "Variant of dys-: bad"
+  },
+  {
+    "term": "neur/o_410",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "path/o_411",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "-plasty_412",
+    "type": "variant",
+    "meaning": "Variant of -plasty: repair"
+  },
+  {
+    "term": "aden/o_413",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "epi-_414",
+    "type": "variant",
+    "meaning": "Variant of epi-: on, upon"
+  },
+  {
+    "term": "ad-_415",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "inter-_416",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "aden/o_417",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "psych/o_418",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "pneum/o_419",
+    "type": "variant",
+    "meaning": "Variant of pneum/o: lung"
+  },
+  {
+    "term": "-sclerosis_420",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "oste/o_421",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "angi/o_422",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "inter-_423",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "cyt/o_424",
+    "type": "variant",
+    "meaning": "Variant of cyt/o: cell"
+  },
+  {
+    "term": "inter-_425",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "cyst/o_426",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "hypo-_427",
+    "type": "variant",
+    "meaning": "Variant of hypo-: below"
+  },
+  {
+    "term": "pneum/o_428",
+    "type": "variant",
+    "meaning": "Variant of pneum/o: lung"
+  },
+  {
+    "term": "nephr/o_429",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "inter-_430",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "neo-_431",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "psych/o_432",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "dys-_433",
+    "type": "variant",
+    "meaning": "Variant of dys-: bad"
+  },
+  {
+    "term": "in-_434",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "auto-_435",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "neur/o_436",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "laryng/o_437",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "gynec/o_438",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "hepat/o_439",
+    "type": "variant",
+    "meaning": "Variant of hepat/o: liver"
+  },
+  {
+    "term": "ur/o_440",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "psych/o_441",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "hyper-_442",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "oste/o_443",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "ot/o_444",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "hemi-_445",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "-ectomy_446",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "-pathy_447",
+    "type": "variant",
+    "meaning": "Variant of -pathy: disease"
+  },
+  {
+    "term": "auto-_448",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "endo-_449",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "-plasia_450",
+    "type": "variant",
+    "meaning": "Variant of -plasia: formation"
+  },
+  {
+    "term": "ante-_451",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "psych/o_452",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "micro-_453",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "inter-_454",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "-megaly_455",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "-phobia_456",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "ex-_457",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "-plasia_458",
+    "type": "variant",
+    "meaning": "Variant of -plasia: formation"
+  },
+  {
+    "term": "mast/o_459",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "auto-_460",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "ad-_461",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "enter/o_462",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "rhin/o_463",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "my/o_464",
+    "type": "variant",
+    "meaning": "Variant of my/o: muscle"
+  },
+  {
+    "term": "aden/o_465",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "rhin/o_466",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "enter/o_467",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "-rrhea_468",
+    "type": "variant",
+    "meaning": "Variant of -rrhea: flow"
+  },
+  {
+    "term": "ur/o_469",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "my/o_470",
+    "type": "variant",
+    "meaning": "Variant of my/o: muscle"
+  },
+  {
+    "term": "epi-_471",
+    "type": "variant",
+    "meaning": "Variant of epi-: on, upon"
+  },
+  {
+    "term": "-itis_472",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "angi/o_473",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "-sclerosis_474",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "neo-_475",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "epi-_476",
+    "type": "variant",
+    "meaning": "Variant of epi-: on, upon"
+  },
+  {
+    "term": "neo-_477",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "psych/o_478",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "oste/o_479",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "ab-_480",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "thorac/o_481",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "hyper-_482",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "my/o_483",
+    "type": "variant",
+    "meaning": "Variant of my/o: muscle"
+  },
+  {
+    "term": "splen/o_484",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "ur/o_485",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "inter-_486",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "epi-_487",
+    "type": "variant",
+    "meaning": "Variant of epi-: on, upon"
+  },
+  {
+    "term": "macro-_488",
+    "type": "variant",
+    "meaning": "Variant of macro-: large"
+  },
+  {
+    "term": "-sclerosis_489",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "-algia_490",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "psych/o_491",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "ad-_492",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "macro-_493",
+    "type": "variant",
+    "meaning": "Variant of macro-: large"
+  },
+  {
+    "term": "anti-_494",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "splen/o_495",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "-rrhage_496",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "-cyte_497",
+    "type": "variant",
+    "meaning": "Variant of -cyte: cell"
+  },
+  {
+    "term": "hyster/o_498",
+    "type": "variant",
+    "meaning": "Variant of hyster/o: uterus"
+  },
+  {
+    "term": "splen/o_499",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "-lysis_500",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "cephal/o_501",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "thorac/o_502",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "phleb/o_503",
+    "type": "variant",
+    "meaning": "Variant of phleb/o: vein"
+  },
+  {
+    "term": "neur/o_504",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "hyster/o_505",
+    "type": "variant",
+    "meaning": "Variant of hyster/o: uterus"
+  },
+  {
+    "term": "anti-_506",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "oste/o_507",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "-sclerosis_508",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "hemi-_509",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "-sclerosis_510",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "-logy_511",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "neo-_512",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "rhin/o_513",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "thorac/o_514",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "epi-_515",
+    "type": "variant",
+    "meaning": "Variant of epi-: on, upon"
+  },
+  {
+    "term": "epi-_516",
+    "type": "variant",
+    "meaning": "Variant of epi-: on, upon"
+  },
+  {
+    "term": "-phobia_517",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "-algia_518",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "cyst/o_519",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "-cele_520",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "cephal/o_521",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "mast/o_522",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "laryng/o_523",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "-emia_524",
+    "type": "variant",
+    "meaning": "Variant of -emia: blood condition"
+  },
+  {
+    "term": "a-_525",
+    "type": "variant",
+    "meaning": "Variant of a-: without"
+  },
+  {
+    "term": "splen/o_526",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "hyper-_527",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "oste/o_528",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "nephr/o_529",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "-megaly_530",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "ab-_531",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "-algia_532",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "-emia_533",
+    "type": "variant",
+    "meaning": "Variant of -emia: blood condition"
+  },
+  {
+    "term": "anti-_534",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "cephal/o_535",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "nephr/o_536",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "aden/o_537",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "hemi-_538",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "in-_539",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "dermat/o_540",
+    "type": "variant",
+    "meaning": "Variant of dermat/o: skin"
+  },
+  {
+    "term": "hepat/o_541",
+    "type": "variant",
+    "meaning": "Variant of hepat/o: liver"
+  },
+  {
+    "term": "-plasia_542",
+    "type": "variant",
+    "meaning": "Variant of -plasia: formation"
+  },
+  {
+    "term": "-megaly_543",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "-pathy_544",
+    "type": "variant",
+    "meaning": "Variant of -pathy: disease"
+  },
+  {
+    "term": "-megaly_545",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "-cyte_546",
+    "type": "variant",
+    "meaning": "Variant of -cyte: cell"
+  },
+  {
+    "term": "inter-_547",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "ren/o_548",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "cyst/o_549",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "angi/o_550",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "pneum/o_551",
+    "type": "variant",
+    "meaning": "Variant of pneum/o: lung"
+  },
+  {
+    "term": "path/o_552",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "angi/o_553",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "in-_554",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "-plasty_555",
+    "type": "variant",
+    "meaning": "Variant of -plasty: repair"
+  },
+  {
+    "term": "-cyte_556",
+    "type": "variant",
+    "meaning": "Variant of -cyte: cell"
+  },
+  {
+    "term": "hyster/o_557",
+    "type": "variant",
+    "meaning": "Variant of hyster/o: uterus"
+  },
+  {
+    "term": "aden/o_558",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "pneum/o_559",
+    "type": "variant",
+    "meaning": "Variant of pneum/o: lung"
+  },
+  {
+    "term": "-itis_560",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "hyper-_561",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "dys-_562",
+    "type": "variant",
+    "meaning": "Variant of dys-: bad"
+  },
+  {
+    "term": "angi/o_563",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "splen/o_564",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "-emia_565",
+    "type": "variant",
+    "meaning": "Variant of -emia: blood condition"
+  },
+  {
+    "term": "-itis_566",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "-sclerosis_567",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "phleb/o_568",
+    "type": "variant",
+    "meaning": "Variant of phleb/o: vein"
+  },
+  {
+    "term": "-logy_569",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "thorac/o_570",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "thorac/o_571",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "-plasty_572",
+    "type": "variant",
+    "meaning": "Variant of -plasty: repair"
+  },
+  {
+    "term": "intra-_573",
+    "type": "variant",
+    "meaning": "Variant of intra-: within"
+  },
+  {
+    "term": "gynec/o_574",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "hemat/o_575",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "-cele_576",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "enter/o_577",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "laryng/o_578",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "cardi/o_579",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "ex-_580",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "mast/o_581",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "dys-_582",
+    "type": "variant",
+    "meaning": "Variant of dys-: bad"
+  },
+  {
+    "term": "hypo-_583",
+    "type": "variant",
+    "meaning": "Variant of hypo-: below"
+  },
+  {
+    "term": "my/o_584",
+    "type": "variant",
+    "meaning": "Variant of my/o: muscle"
+  },
+  {
+    "term": "ab-_585",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "cyst/o_586",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "ante-_587",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "inter-_588",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "-scopy_589",
+    "type": "variant",
+    "meaning": "Variant of -scopy: viewing"
+  },
+  {
+    "term": "-megaly_590",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "cyst/o_591",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "splen/o_592",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "neur/o_593",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "-oma_594",
+    "type": "variant",
+    "meaning": "Variant of -oma: tumor"
+  },
+  {
+    "term": "endo-_595",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "neo-_596",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "oste/o_597",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "intra-_598",
+    "type": "variant",
+    "meaning": "Variant of intra-: within"
+  },
+  {
+    "term": "mast/o_599",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "hepat/o_600",
+    "type": "variant",
+    "meaning": "Variant of hepat/o: liver"
+  },
+  {
+    "term": "ex-_601",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "in-_602",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "neur/o_603",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "-ectomy_604",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "gynec/o_605",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "in-_606",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "-scopy_607",
+    "type": "variant",
+    "meaning": "Variant of -scopy: viewing"
+  },
+  {
+    "term": "hemat/o_608",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "gastr/o_609",
+    "type": "variant",
+    "meaning": "Variant of gastr/o: stomach"
+  },
+  {
+    "term": "hemi-_610",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "-rrhea_611",
+    "type": "variant",
+    "meaning": "Variant of -rrhea: flow"
+  },
+  {
+    "term": "dermat/o_612",
+    "type": "variant",
+    "meaning": "Variant of dermat/o: skin"
+  },
+  {
+    "term": "ren/o_613",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "rhin/o_614",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "hemi-_615",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "-logy_616",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "cyt/o_617",
+    "type": "variant",
+    "meaning": "Variant of cyt/o: cell"
+  },
+  {
+    "term": "ex-_618",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "neo-_619",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "-scopy_620",
+    "type": "variant",
+    "meaning": "Variant of -scopy: viewing"
+  },
+  {
+    "term": "macro-_621",
+    "type": "variant",
+    "meaning": "Variant of macro-: large"
+  },
+  {
+    "term": "ante-_622",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "-rrhea_623",
+    "type": "variant",
+    "meaning": "Variant of -rrhea: flow"
+  },
+  {
+    "term": "brady-_624",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "a-_625",
+    "type": "variant",
+    "meaning": "Variant of a-: without"
+  },
+  {
+    "term": "-tomy_626",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "ot/o_627",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "thorac/o_628",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "-tomy_629",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "aden/o_630",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "rhin/o_631",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "neo-_632",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "ex-_633",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "gynec/o_634",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "-itis_635",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "mast/o_636",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "gynec/o_637",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "nephr/o_638",
+    "type": "variant",
+    "meaning": "Variant of nephr/o: kidney"
+  },
+  {
+    "term": "enter/o_639",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "ad-_640",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "cyt/o_641",
+    "type": "variant",
+    "meaning": "Variant of cyt/o: cell"
+  },
+  {
+    "term": "inter-_642",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "ren/o_643",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "-ectomy_644",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "anti-_645",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "a-_646",
+    "type": "variant",
+    "meaning": "Variant of a-: without"
+  },
+  {
+    "term": "-rrhea_647",
+    "type": "variant",
+    "meaning": "Variant of -rrhea: flow"
+  },
+  {
+    "term": "hemi-_648",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "epi-_649",
+    "type": "variant",
+    "meaning": "Variant of epi-: on, upon"
+  },
+  {
+    "term": "ur/o_650",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "angi/o_651",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "ab-_652",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "-rrhage_653",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "auto-_654",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "-ectomy_655",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "-plasia_656",
+    "type": "variant",
+    "meaning": "Variant of -plasia: formation"
+  },
+  {
+    "term": "ren/o_657",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "-stomy_658",
+    "type": "variant",
+    "meaning": "Variant of -stomy: opening"
+  },
+  {
+    "term": "ur/o_659",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "inter-_660",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "cardi/o_661",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "-itis_662",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "psych/o_663",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "enter/o_664",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "laryng/o_665",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "cardi/o_666",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "-sclerosis_667",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "hyster/o_668",
+    "type": "variant",
+    "meaning": "Variant of hyster/o: uterus"
+  },
+  {
+    "term": "ur/o_669",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "cardi/o_670",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "thorac/o_671",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "splen/o_672",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "neo-_673",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "ot/o_674",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "auto-_675",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "-tomy_676",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "hyster/o_677",
+    "type": "variant",
+    "meaning": "Variant of hyster/o: uterus"
+  },
+  {
+    "term": "neo-_678",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "cephal/o_679",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "cephal/o_680",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "path/o_681",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "auto-_682",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "-itis_683",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "endo-_684",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "ab-_685",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "dys-_686",
+    "type": "variant",
+    "meaning": "Variant of dys-: bad"
+  },
+  {
+    "term": "neur/o_687",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "-pathy_688",
+    "type": "variant",
+    "meaning": "Variant of -pathy: disease"
+  },
+  {
+    "term": "mast/o_689",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "splen/o_690",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "-itis_691",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "in-_692",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "aden/o_693",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "thorac/o_694",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "-megaly_695",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "-megaly_696",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "-sclerosis_697",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "-phobia_698",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "gynec/o_699",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "-tomy_700",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "-oma_701",
+    "type": "variant",
+    "meaning": "Variant of -oma: tumor"
+  },
+  {
+    "term": "hyper-_702",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "my/o_703",
+    "type": "variant",
+    "meaning": "Variant of my/o: muscle"
+  },
+  {
+    "term": "-logy_704",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "-sclerosis_705",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "intra-_706",
+    "type": "variant",
+    "meaning": "Variant of intra-: within"
+  },
+  {
+    "term": "-megaly_707",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "laryng/o_708",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "ren/o_709",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "ad-_710",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "ur/o_711",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "intra-_712",
+    "type": "variant",
+    "meaning": "Variant of intra-: within"
+  },
+  {
+    "term": "macro-_713",
+    "type": "variant",
+    "meaning": "Variant of macro-: large"
+  },
+  {
+    "term": "laryng/o_714",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "-ectomy_715",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "-emia_716",
+    "type": "variant",
+    "meaning": "Variant of -emia: blood condition"
+  },
+  {
+    "term": "-rrhage_717",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "neur/o_718",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "micro-_719",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "-cyte_720",
+    "type": "variant",
+    "meaning": "Variant of -cyte: cell"
+  },
+  {
+    "term": "-cele_721",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "-sclerosis_722",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "hemi-_723",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "neo-_724",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "-itis_725",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "ante-_726",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "aden/o_727",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "gynec/o_728",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "aden/o_729",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  },
+  {
+    "term": "my/o_730",
+    "type": "variant",
+    "meaning": "Variant of my/o: muscle"
+  },
+  {
+    "term": "hemat/o_731",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "ex-_732",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "-phobia_733",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "-oma_734",
+    "type": "variant",
+    "meaning": "Variant of -oma: tumor"
+  },
+  {
+    "term": "laryng/o_735",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "hypo-_736",
+    "type": "variant",
+    "meaning": "Variant of hypo-: below"
+  },
+  {
+    "term": "ren/o_737",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "mast/o_738",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "-tomy_739",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "ad-_740",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "ante-_741",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "inter-_742",
+    "type": "variant",
+    "meaning": "Variant of inter-: between"
+  },
+  {
+    "term": "ad-_743",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "cyt/o_744",
+    "type": "variant",
+    "meaning": "Variant of cyt/o: cell"
+  },
+  {
+    "term": "endo-_745",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "neo-_746",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "-logy_747",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "hyper-_748",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "-ectomy_749",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "splen/o_750",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "enter/o_751",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "-rrhage_752",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "ad-_753",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "splen/o_754",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "cephal/o_755",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "-emia_756",
+    "type": "variant",
+    "meaning": "Variant of -emia: blood condition"
+  },
+  {
+    "term": "rhin/o_757",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "-plasia_758",
+    "type": "variant",
+    "meaning": "Variant of -plasia: formation"
+  },
+  {
+    "term": "arthr/o_759",
+    "type": "variant",
+    "meaning": "Variant of arthr/o: joint"
+  },
+  {
+    "term": "brady-_760",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "-cele_761",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "-oma_762",
+    "type": "variant",
+    "meaning": "Variant of -oma: tumor"
+  },
+  {
+    "term": "cardi/o_763",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "ante-_764",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "hyper-_765",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "cyt/o_766",
+    "type": "variant",
+    "meaning": "Variant of cyt/o: cell"
+  },
+  {
+    "term": "-phobia_767",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "-plasty_768",
+    "type": "variant",
+    "meaning": "Variant of -plasty: repair"
+  },
+  {
+    "term": "micro-_769",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "rhin/o_770",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "epi-_771",
+    "type": "variant",
+    "meaning": "Variant of epi-: on, upon"
+  },
+  {
+    "term": "-pathy_772",
+    "type": "variant",
+    "meaning": "Variant of -pathy: disease"
+  },
+  {
+    "term": "micro-_773",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "ot/o_774",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "-scopy_775",
+    "type": "variant",
+    "meaning": "Variant of -scopy: viewing"
+  },
+  {
+    "term": "brady-_776",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "rhin/o_777",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "-cyte_778",
+    "type": "variant",
+    "meaning": "Variant of -cyte: cell"
+  },
+  {
+    "term": "psych/o_779",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "rhin/o_780",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "mast/o_781",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "cardi/o_782",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "ante-_783",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "-itis_784",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "-tomy_785",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "splen/o_786",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "cardi/o_787",
+    "type": "variant",
+    "meaning": "Variant of cardi/o: heart"
+  },
+  {
+    "term": "-scopy_788",
+    "type": "variant",
+    "meaning": "Variant of -scopy: viewing"
+  },
+  {
+    "term": "psych/o_789",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "enter/o_790",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "enter/o_791",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "hemat/o_792",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "endo-_793",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "dys-_794",
+    "type": "variant",
+    "meaning": "Variant of dys-: bad"
+  },
+  {
+    "term": "oste/o_795",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "hepat/o_796",
+    "type": "variant",
+    "meaning": "Variant of hepat/o: liver"
+  },
+  {
+    "term": "angi/o_797",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "-ectomy_798",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "pneum/o_799",
+    "type": "variant",
+    "meaning": "Variant of pneum/o: lung"
+  },
+  {
+    "term": "-emia_800",
+    "type": "variant",
+    "meaning": "Variant of -emia: blood condition"
+  },
+  {
+    "term": "-rrhage_801",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "gynec/o_802",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "mast/o_803",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "splen/o_804",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "-itis_805",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "psych/o_806",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "ot/o_807",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "-oma_808",
+    "type": "variant",
+    "meaning": "Variant of -oma: tumor"
+  },
+  {
+    "term": "dermat/o_809",
+    "type": "variant",
+    "meaning": "Variant of dermat/o: skin"
+  },
+  {
+    "term": "hemat/o_810",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "neur/o_811",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "-plasty_812",
+    "type": "variant",
+    "meaning": "Variant of -plasty: repair"
+  },
+  {
+    "term": "-cyte_813",
+    "type": "variant",
+    "meaning": "Variant of -cyte: cell"
+  },
+  {
+    "term": "hemi-_814",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "ren/o_815",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "-cele_816",
+    "type": "variant",
+    "meaning": "Variant of -cele: hernia"
+  },
+  {
+    "term": "anti-_817",
+    "type": "variant",
+    "meaning": "Variant of anti-: against"
+  },
+  {
+    "term": "oste/o_818",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "-ectomy_819",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "-sclerosis_820",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "-algia_821",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "macro-_822",
+    "type": "variant",
+    "meaning": "Variant of macro-: large"
+  },
+  {
+    "term": "-logy_823",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "ur/o_824",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "hemat/o_825",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "hyper-_826",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "psych/o_827",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "oste/o_828",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "-phobia_829",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "rhin/o_830",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "-tomy_831",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "path/o_832",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "micro-_833",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "hemat/o_834",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "path/o_835",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "oste/o_836",
+    "type": "variant",
+    "meaning": "Variant of oste/o: bone"
+  },
+  {
+    "term": "cephal/o_837",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "neo-_838",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "-cyte_839",
+    "type": "variant",
+    "meaning": "Variant of -cyte: cell"
+  },
+  {
+    "term": "-lysis_840",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "auto-_841",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "-itis_842",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "-emia_843",
+    "type": "variant",
+    "meaning": "Variant of -emia: blood condition"
+  },
+  {
+    "term": "endo-_844",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "-algia_845",
+    "type": "variant",
+    "meaning": "Variant of -algia: pain"
+  },
+  {
+    "term": "ab-_846",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "ad-_847",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "ren/o_848",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "gynec/o_849",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "cyst/o_850",
+    "type": "variant",
+    "meaning": "Variant of cyst/o: bladder"
+  },
+  {
+    "term": "-oma_851",
+    "type": "variant",
+    "meaning": "Variant of -oma: tumor"
+  },
+  {
+    "term": "brady-_852",
+    "type": "variant",
+    "meaning": "Variant of brady-: slow"
+  },
+  {
+    "term": "laryng/o_853",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "ur/o_854",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "-tomy_855",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "mast/o_856",
+    "type": "variant",
+    "meaning": "Variant of mast/o: breast"
+  },
+  {
+    "term": "splen/o_857",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "gynec/o_858",
+    "type": "variant",
+    "meaning": "Variant of gynec/o: female"
+  },
+  {
+    "term": "ab-_859",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "macro-_860",
+    "type": "variant",
+    "meaning": "Variant of macro-: large"
+  },
+  {
+    "term": "enter/o_861",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "ante-_862",
+    "type": "variant",
+    "meaning": "Variant of ante-: before"
+  },
+  {
+    "term": "rhin/o_863",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "enter/o_864",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "-megaly_865",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "hyper-_866",
+    "type": "variant",
+    "meaning": "Variant of hyper-: excessive"
+  },
+  {
+    "term": "ab-_867",
+    "type": "variant",
+    "meaning": "Variant of ab-: away from"
+  },
+  {
+    "term": "intra-_868",
+    "type": "variant",
+    "meaning": "Variant of intra-: within"
+  },
+  {
+    "term": "-rrhage_869",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "cephal/o_870",
+    "type": "variant",
+    "meaning": "Variant of cephal/o: head"
+  },
+  {
+    "term": "ot/o_871",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "ex-_872",
+    "type": "variant",
+    "meaning": "Variant of ex-: out"
+  },
+  {
+    "term": "-cyte_873",
+    "type": "variant",
+    "meaning": "Variant of -cyte: cell"
+  },
+  {
+    "term": "ur/o_874",
+    "type": "variant",
+    "meaning": "Variant of ur/o: urine"
+  },
+  {
+    "term": "in-_875",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "angi/o_876",
+    "type": "variant",
+    "meaning": "Variant of angi/o: vessel"
+  },
+  {
+    "term": "dys-_877",
+    "type": "variant",
+    "meaning": "Variant of dys-: bad"
+  },
+  {
+    "term": "ad-_878",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "-lysis_879",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "rhin/o_880",
+    "type": "variant",
+    "meaning": "Variant of rhin/o: nose"
+  },
+  {
+    "term": "ren/o_881",
+    "type": "variant",
+    "meaning": "Variant of ren/o: kidney"
+  },
+  {
+    "term": "ad-_882",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "micro-_883",
+    "type": "variant",
+    "meaning": "Variant of micro-: small"
+  },
+  {
+    "term": "splen/o_884",
+    "type": "variant",
+    "meaning": "Variant of splen/o: spleen"
+  },
+  {
+    "term": "enter/o_885",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "-rrhage_886",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "thorac/o_887",
+    "type": "variant",
+    "meaning": "Variant of thorac/o: chest"
+  },
+  {
+    "term": "macro-_888",
+    "type": "variant",
+    "meaning": "Variant of macro-: large"
+  },
+  {
+    "term": "neur/o_889",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "-logy_890",
+    "type": "variant",
+    "meaning": "Variant of -logy: study of"
+  },
+  {
+    "term": "-sclerosis_891",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "a-_892",
+    "type": "variant",
+    "meaning": "Variant of a-: without"
+  },
+  {
+    "term": "-sclerosis_893",
+    "type": "variant",
+    "meaning": "Variant of -sclerosis: hardening"
+  },
+  {
+    "term": "path/o_894",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "endo-_895",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "endo-_896",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "hemi-_897",
+    "type": "variant",
+    "meaning": "Variant of hemi-: half"
+  },
+  {
+    "term": "a-_898",
+    "type": "variant",
+    "meaning": "Variant of a-: without"
+  },
+  {
+    "term": "psych/o_899",
+    "type": "variant",
+    "meaning": "Variant of psych/o: mind"
+  },
+  {
+    "term": "ad-_900",
+    "type": "variant",
+    "meaning": "Variant of ad-: toward"
+  },
+  {
+    "term": "enter/o_901",
+    "type": "variant",
+    "meaning": "Variant of enter/o: intestine"
+  },
+  {
+    "term": "neo-_902",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "-tomy_903",
+    "type": "variant",
+    "meaning": "Variant of -tomy: cutting into"
+  },
+  {
+    "term": "-rrhage_904",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "endo-_905",
+    "type": "variant",
+    "meaning": "Variant of endo-: within"
+  },
+  {
+    "term": "-itis_906",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "auto-_907",
+    "type": "variant",
+    "meaning": "Variant of auto-: self"
+  },
+  {
+    "term": "-itis_908",
+    "type": "variant",
+    "meaning": "Variant of -itis: inflammation"
+  },
+  {
+    "term": "-phobia_909",
+    "type": "variant",
+    "meaning": "Variant of -phobia: fear of"
+  },
+  {
+    "term": "laryng/o_910",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "neo-_911",
+    "type": "variant",
+    "meaning": "Variant of neo-: new"
+  },
+  {
+    "term": "neur/o_912",
+    "type": "variant",
+    "meaning": "Variant of neur/o: nerve"
+  },
+  {
+    "term": "-ectomy_913",
+    "type": "variant",
+    "meaning": "Variant of -ectomy: removal"
+  },
+  {
+    "term": "ot/o_914",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "path/o_915",
+    "type": "variant",
+    "meaning": "Variant of path/o: disease"
+  },
+  {
+    "term": "ot/o_916",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "in-_917",
+    "type": "variant",
+    "meaning": "Variant of in-: in, into"
+  },
+  {
+    "term": "-megaly_918",
+    "type": "variant",
+    "meaning": "Variant of -megaly: enlargement"
+  },
+  {
+    "term": "phleb/o_919",
+    "type": "variant",
+    "meaning": "Variant of phleb/o: vein"
+  },
+  {
+    "term": "hepat/o_920",
+    "type": "variant",
+    "meaning": "Variant of hepat/o: liver"
+  },
+  {
+    "term": "intra-_921",
+    "type": "variant",
+    "meaning": "Variant of intra-: within"
+  },
+  {
+    "term": "-scopy_922",
+    "type": "variant",
+    "meaning": "Variant of -scopy: viewing"
+  },
+  {
+    "term": "-lysis_923",
+    "type": "variant",
+    "meaning": "Variant of -lysis: destruction"
+  },
+  {
+    "term": "ot/o_924",
+    "type": "variant",
+    "meaning": "Variant of ot/o: ear"
+  },
+  {
+    "term": "-oma_925",
+    "type": "variant",
+    "meaning": "Variant of -oma: tumor"
+  },
+  {
+    "term": "laryng/o_926",
+    "type": "variant",
+    "meaning": "Variant of laryng/o: larynx"
+  },
+  {
+    "term": "-rrhage_927",
+    "type": "variant",
+    "meaning": "Variant of -rrhage: bursting forth"
+  },
+  {
+    "term": "hemat/o_928",
+    "type": "variant",
+    "meaning": "Variant of hemat/o: blood"
+  },
+  {
+    "term": "intra-_929",
+    "type": "variant",
+    "meaning": "Variant of intra-: within"
+  },
+  {
+    "term": "aden/o_930",
+    "type": "variant",
+    "meaning": "Variant of aden/o: gland"
+  }
+]
