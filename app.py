@@ -7,31 +7,34 @@ app = Flask(__name__)
 with open('data/unique_1000_medical_word_parts.json') as f:
     terms = json.load(f)
 
+# Homepage
 @app.route('/')
 def index():
     return render_template('index.html')
 
+# Flashcards page
 @app.route('/flashcards')
 def flashcards():
     return render_template('flashcards.html')
 
+# Quiz page
 @app.route('/quiz')
 def quiz():
     return render_template('quiz.html')
 
+# Matching page
 @app.route('/match')
 def match():
     return render_template('match.html')
 
+# API: All terms, organized by virtual chapters
 @app.route('/api/terms')
 def api_terms():
-    # Organize terms by type as virtual chapters
     all_terms = []
-    
     for term in terms:
         term_copy = term.copy()
-        
-        # Create chapter names based on type
+
+        # Assign virtual chapters based on type
         if term['type'] == 'prefix':
             term_copy["chapter"] = "Prefixes"
         elif term['type'] == 'root':
@@ -42,17 +45,11 @@ def api_terms():
             term_copy["chapter"] = "Variants"
         else:
             term_copy["chapter"] = "Other Terms"
-            
+
         all_terms.append(term_copy)
-    
+
     return jsonify(all_terms)
 
-from flask import Flask
-
-app = Flask(__name__)
-
-# Your routes here...
-
+# Run the app
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=10000)
-
